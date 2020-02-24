@@ -1,4 +1,4 @@
-### CSCI 3010 Project
+# CSCI 3010 Project
 
 This project was developed by Alex Palo and Sam Goulding for CSCI 3010 - Programming Project Workshop.
 
