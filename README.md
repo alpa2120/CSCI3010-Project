@@ -1,4 +1,16 @@
-# Project
+### CSCI 3010 Project
+
+This project was developed by Alex Palo and Sam Goulding for CSCI 3010 - Programming Project Workshop.
+
+The goal of this project is to create an application that helps users familiarize themselves with the world of Cybersecurity.
+
+## Project Dependencies
+
+To use Angular CLI, follow these instructions provided by Visual Studio Code: https://code.visualstudio.com/docs/nodejs/angular-tutorial
+
+Note: You will need to install the Node.js Javascript runtime and the npm package.
+
+## General Angular Information
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
