@@ -4,6 +4,8 @@ This project was developed by Alex Palo and Sam Goulding for CSCI 3010 - Program
 
 The goal of this project is to create an application that helps users familiarize themselves with the world of Cybersecurity.
 
+View the current build of this project at https://alpa2120.github.io/CSCI3010-Project/CSCI3010-Project/home
+
 ## Project Dependencies
 
 To use Angular CLI, follow these instructions provided by Visual Studio Code: https://code.visualstudio.com/docs/nodejs/angular-tutorial
