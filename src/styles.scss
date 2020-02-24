@@ -1,1 +1,75 @@
-/* You can add global styles to this file, and also import other style files */
+h1 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
+h3 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 22px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 23.4px; } 
+p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+blockquote { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+.page-header
+{
+    text-align: center;
+}
+
+.home-button
+{
+    cursor: pointer;
+    box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #b23e35;
+    margin-left: 25%;
+}
+
+.tile-group
+{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    .tile-row
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        .tile{
+            padding: 15px;
+            margin: 5px;
+            border-radius: 5px;
+            width: 25%;
+            background-color: lightgray;
+            .tile-header
+            {
+                text-align: center;
+            }
+        }
+        .tile-col
+        {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            .tile{
+                display: flex;
+                flex-direction: column;
+                padding: 15px;
+                margin: 5px;
+                border-radius: 5px;
+                width: -webkit-fill-available;
+                min-height: -webkit-fill-available;
+                background-color: lightgray;
+                .tile-header
+                {
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+}
