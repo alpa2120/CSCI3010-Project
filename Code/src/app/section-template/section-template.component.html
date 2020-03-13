@@ -1,25 +1,20 @@
 
-<h1 class="page-header">SECTION NAME</h1>
-
+<h1 class="page-header">{{section.title}}</h1>
 <div class="tile-group">
   <div class="tile-row">
     <div class="tile-col">
-      <button class="tile" id="tile_1" [routerLink]="['/section']">
+      <button class="tile" [routerLink]="['/section']">
         <h3 class="tile-header">Learn</h3>
-        <p>Section Information Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>{{section.learnInfo}}</p>
       </button>
     </div>
     <div class="tile-col">
-      <button class="tile" id="tile_3" [routerLink]="['/section']">
-        <h3 class="tile-header">Activity 1</h3>
-        <p>Section Information Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </button>
-      <button class="tile" id="tile_4" [routerLink]="['/section']">
-        <h3 class="tile-header">Activity 2</h3>
-        <p>Section Information Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <button class="tile" [routerLink]="['/section']" *ngFor="let activity of activities">
+        <h3 class="tile-header">{{activity.title}}</h3>
+        <p>{{activity.info}}</p>
       </button>
     </div>
   </div>
 </div>
 
-<button class="home-button" [routerLink]="['']">Return Home</button>
+<button class="home-button" [routerLink]="['']" (click)="deselectSection();">Return Home</button>
