@@ -1,9 +1,0 @@
-<h1 class="page-header">Home</h1>
-<div class="page-content">
-  <div class = "tile-row">
-    <button class="tile" [routerLink]="['/section']" *ngFor="let section of sections" (click)="setSelectedSection(section)">
-      <h3 class="tile-header">{{section.title}}</h3>
-      <p>{{section.info}}</p>
-    </button>
-  </div>
-</div>
