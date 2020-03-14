@@ -5,8 +5,8 @@ blockquote { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-s
 pre { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
 
 body{
-    background-color: #444;
-    color: lawngreen;
+    background-color: whitesmoke;
+    color: black;
     margin: 0;
 }
 
@@ -20,7 +20,7 @@ body{
     text-align: center;
     margin: 0;
     padding: 1.5vh;
-    background-color: green;
+    background-color: rgb(0, 204, 255);
     margin-bottom: 1vh;
 }
 
@@ -28,12 +28,12 @@ body{
 .home-button
 {
     cursor: pointer;
-	background-color: green;
+	background-color: rgb(0, 204, 255);
 	border-radius:6px;
-	border:1px solid darkgreen;
+	border:1px solid black;
 	display:inline-block;
 	cursor:pointer;
-	color:lawngreen;
+	color:black;
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight:bold;
 	padding:6px 24px;
@@ -52,8 +52,8 @@ body{
         margin: 5px;
         border-radius: 5px;
         width: 49%;
-        background-color: dimgrey;
-        color: #17ff0b;
+        background-color: rgba(255, 251, 32, 0.822);
+        color: black;
         border: none;
         height: 40vh !important;
         .tile-header
@@ -76,8 +76,8 @@ body{
             padding: 15px;
             margin: 5px;
             border-radius: 5px;
-            background-color: dimgrey;
-            color: #17ff0b;
+            background-color: rgba(255, 251, 32, 0.822);
+            color: black;
             border: none;
             height: 40vh;
             .tile-header
