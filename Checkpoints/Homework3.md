@@ -10,10 +10,10 @@ For the turn in on this date, we will be uploading the front end code that is us
 We have the general section template that we can use for the various topics we are going to include in the application.
 
 The current home page: 
-![alt text](https://raw.githubusercontent.com/alpa2120/CSCI3010-Project/Checkpoints/Images/HomePage3-13.PNG)
+![](/Checkpoints/Images/HomePage3-13.PNG)
 
 The current section template:
-![alt text](https://raw.githubusercontent.com/alpa2120/CSCI3010-Project/Checkpoints/Images/SectionTemplate3-13.PNG)
+![](/Checkpoints/Images/SectionTemplate3-13.PNG)
 
 There are no major differences/discrepancies between what we said we would have and what we do have. The only improvement/fix we could make for the template is a color scheme change (it's kinda ugly..)
 
