@@ -8,11 +8,13 @@ View the current build of this project at https://alpa2120.github.io/CSCI3010-Pr
 
 To run locally, follow the instructions below for Development Server. This application was developed with windows and there may be issues running on MacOS or Linux machines. 
 
-- Ensure that you have the Angular CLI installed for VS Code.
-- Navigate to the `Code` directory of this project in your terminal. (We use powershell)
-- Run `ng serve` in your terminal.
-- Navigate to `http://localhost:4200/` in a browser. (We use Chrome)
-- The application should now be running locally and viewable at the local host link mentioned above.
+> Directions to run locally:
+
+1. Ensure that you have the Angular CLI installed for VS Code.
+2. Navigate to the `Code` directory of this project in your terminal. (We use powershell)
+3. Run `ng serve` in your terminal.
+4. Navigate to `http://localhost:4200/` in a browser. (We use Chrome)
+5. The application should now be running locally and viewable at the local host link mentioned above.
 
 ## Project Dependencies
 
@@ -49,4 +51,5 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Installs needed to run:
-> No additional installs required at this time.
+
+- No additional installs required at this time.
