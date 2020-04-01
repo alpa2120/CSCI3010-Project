@@ -6,6 +6,14 @@ The goal of this project is to create an application that helps users familiariz
 
 View the current build of this project at https://alpa2120.github.io/CSCI3010-Project/CSCI3010-Project
 
+To run locally, follow the instructions below for Development Server. This application was developed with windows and there may be issues running on MacOS or Linux machines. 
+
+> Ensure that you have the Angular CLI installed for VS Code.
+> Navigate to the `Code` directory of this project in your terminal. (We use powershell)
+> Run `ng serve` in your terminal.
+> Navigate to `http://localhost:4200/` in a browser. (We use Chrome)
+> The application should now be running locally and viewable at the local host link mentioned above.
+
 ## Project Dependencies
 
 To use Angular CLI, follow these instructions provided by Visual Studio Code: https://code.visualstudio.com/docs/nodejs/angular-tutorial
