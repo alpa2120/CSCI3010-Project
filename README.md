@@ -6,7 +6,7 @@ The goal of this project is to create an application that helps users familiariz
 
 View the current build of this project at https://alpa2120.github.io/CSCI3010-Project/CSCI3010-Project
 
-To run locally, follow the instructions below for Development Server. This application was developed with windows and there may be issues running on MacOS or Linux machines. 
+> We have developed all code in Visual Studio Code with a Powershell terminal. We are unsure of any issues that may arrise when attempting to run on a Unix machine. If you are unable to run the code on a local machine, refer to the Github Pages link above. That link will direct you to the home page of our most recent build, which is exactly what you would see when viewing the page on a local host.
 
 ### Directions to run locally:
 
