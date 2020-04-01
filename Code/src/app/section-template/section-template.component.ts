@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Section } from '../section';
-import { Activity } from '../activity';
-import { SECTIONS } from '../mock-sections';
+import { Section } from '../section'; // Section class
+import { Activity } from '../activity'; // Activity class
+import { SECTIONS } from '../mock-sections'; // Array of Sections
 
 @Component({
   selector: 'app-section-template',
@@ -16,9 +16,16 @@ export class SectionTemplateComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.getSelectedSection();
+    // When this page is opened, the following code will be called.
+    this.getSelectedSection(); // Open to correct section.
   }
 
+  /**
+   * Open the section template page to the proper section.
+   * Find which section is selected in the list of sections and set the fields of the SectionTemplateComponent class.
+   * @param NONE
+   * @returns NONE
+   */
   getSelectedSection()
   {
     for (let section of SECTIONS)
@@ -31,6 +38,11 @@ export class SectionTemplateComponent implements OnInit {
     }
   }
 
+  /**
+   * Deselect the current section when returning to the home page.
+   * @param NONE
+   * @returns NONE
+   */
   deselectSection()
   {
     this.section.selected = false;

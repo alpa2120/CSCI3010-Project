@@ -1,11 +1,13 @@
 import { Section } from './section';
 import { Activity } from './activity';
 
+// This is a list of activities
 const ACTIVITIES: Activity[] = [
     {title: 'Activity 1', info: 'Information about activity 1'},
     {title: 'Activity 2', info: 'Information about activity 2'}
 ];
 
+// This is the currect list of sections. 
 export const SECTIONS: Section[] = 
 [
     {title: 'Section 1', info: 'Information about section 1', learnInfo: 'This will be under the learn tab', activities: ACTIVITIES, selected: false},
