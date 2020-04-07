@@ -2,11 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { Section } from '../section'; // Section class
 import { Activity } from '../activity'; // Activity class
 import { SECTIONS } from '../mock-sections'; // Array of Sections
+import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-section-template',
   templateUrl: './section-template.component.html',
-  styleUrls: ['./section-template.component.scss']
+  styleUrls: ['./section-template.component.scss'],
+  providers: [NgbCarouselConfig]
 })
 export class SectionTemplateComponent implements OnInit {
 
