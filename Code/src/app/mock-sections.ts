@@ -1,6 +1,8 @@
 import { Section } from './section';
 import { Activity } from './activity';
 
+import { TABS } from './mock-learn-labs';
+
 // This is a list of activities
 const ACTIVITIES: Activity[] = [
     {title: 'Quiz', info: 'Test your knowledge'},
@@ -15,26 +17,31 @@ export const SECTIONS: Section[] =
         info: 'Information about section 1', 
         learnInfo: 'This will be under the learn tab', 
         activities: ACTIVITIES, 
-        selected: false
+        selected: false,
+        tabs: TABS[0]
     },
     {
         title: 'Cryptography', 
         info: 'Information about section 2', 
         learnInfo: 'This will be under the learn tab', 
         activities: ACTIVITIES, 
-        selected: false
+        selected: false,
+        tabs: TABS[1]
     },
     {
         title: 'Malware', 
         info: 'Information about section 3', 
         learnInfo: 'This will be under the learn tab', 
         activities: ACTIVITIES, 
-        selected: false
+        selected: false,
+        tabs: TABS[2]
     },
     {
         title: 'Quantum Encryption', 
         info: 'Information about section 4', 
         learnInfo: 'This will be under the learn tab', 
         activities: ACTIVITIES, 
-        selected: false}
+        selected: false,
+        tabs: TABS[3]
+    }
 ]

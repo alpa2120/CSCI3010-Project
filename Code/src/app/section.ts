@@ -1,4 +1,5 @@
 import { Activity } from './activity';
+import { LearnTab } from './learn-tab';
 
 /**
  * Section interface.
@@ -16,4 +17,6 @@ export interface Section {
     selected: boolean;
 
     activities: Activity[];
+
+    tabs: LearnTab[];
 }

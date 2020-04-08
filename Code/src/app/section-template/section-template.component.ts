@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Section } from '../section'; // Section class
 import { Activity } from '../activity'; // Activity class
+import { LearnTab } from '../learn-tab';
+
 import { SECTIONS } from '../mock-sections'; // Array of Sections
 import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 
@@ -14,6 +16,7 @@ export class SectionTemplateComponent implements OnInit {
 
   section: Section;
   activities: Activity[];
+  tabs: LearnTab[];
 
   constructor() { }
 
@@ -36,6 +39,7 @@ export class SectionTemplateComponent implements OnInit {
       {
         this.section = section;
         this.activities = section.activities;
+        this.tabs = section.tabs;
       }
     }
   }

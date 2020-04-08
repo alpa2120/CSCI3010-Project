@@ -4,17 +4,9 @@
   <div class="tile-group">
     <div class="tile-col">
       <ngb-carousel style="height: 100%;" class="learn tile">
-        <ng-template ngbSlide>
-          <h3 class="tile-header">Learn</h3>
-          <p>{{section.learnInfo}}</p>
-        </ng-template>
-        <ng-template ngbSlide>
-          <h3 class="tile-header">Learn</h3>
-          <p>Slide 2</p>
-        </ng-template>
-        <ng-template ngbSlide>
-          <h3 class="tile-header">Learn</h3>
-          <p>Slide 3</p>
+        <ng-template ngbSlide *ngFor="let tab of tabs">
+          <h3 class="tile-header">{{tab.title}}</h3>
+          <p>{{tab.info}}</p>
         </ng-template>
       </ngb-carousel>
       <!-- <button class="tile" style="height: 100%;" [routerLink]="['/section']">
