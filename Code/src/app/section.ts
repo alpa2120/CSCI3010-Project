@@ -1,5 +1,6 @@
 import { Activity } from './activity';
 import { LearnTab } from './learn-tab';
+import { quizQuestion } from './quiz';
 
 /**
  * Section interface.
@@ -19,4 +20,6 @@ export interface Section {
     activities: Activity[];
 
     tabs: LearnTab[];
+
+    quiz: quizQuestion[];
 }
