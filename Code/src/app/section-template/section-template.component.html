@@ -15,9 +15,13 @@
       </button> -->
     </div>
     <div class="tile-col">
-      <button class="tile" [routerLink]="['/section']" *ngFor="let activity of activities">
-        <h3 class="tile-header">{{activity.title}}</h3>
-        <p>{{activity.info}}</p>
+      <button class="tile" [routerLink]="['/quiz']">
+        <h3 class="tile-header">Quiz</h3>
+        <p>Quiz Info</p>
+      </button>
+      <button class="tile" [routerLink]="['/section']">
+        <h3 class="tile-header">Matching</h3>
+        <p>Matching Info</p>
       </button>
     </div>
   </div>

@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { SectionTemplateComponent } from './section-template/section-template.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { QuizComponent } from './quiz/quiz.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FooterComponent } from './components/footer/footer.component';
     HomeComponent,
     SectionTemplateComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    QuizComponent
   ],
   imports: [
     NgbModule,
@@ -26,7 +28,8 @@ import { FooterComponent } from './components/footer/footer.component';
     RouterModule.forRoot([
       { path: '', redirectTo: '/home', pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
-      { path: 'section', component: SectionTemplateComponent}
+      { path: 'section', component: SectionTemplateComponent},
+      { path: 'quiz', component: QuizComponent}
     ])
   ],
   providers: [],
