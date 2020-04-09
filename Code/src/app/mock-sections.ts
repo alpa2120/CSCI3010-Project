@@ -16,7 +16,7 @@ export const SECTIONS: Section[] =
     {
         title: 'Networking', 
         info: 'Information about section 1', 
-        learnInfo: 'This will be under the learn tab', 
+        learnInfo: 'This will be under the learn tab',  //learnInfo field not needed anymore?
         activities: ACTIVITIES, 
         selected: false,
         tabs: TABS[0],
@@ -24,7 +24,7 @@ export const SECTIONS: Section[] =
     },
     {
         title: 'Cryptography', 
-        info: 'Information about section 2', 
+        info: 'Dive into the fundamentals of secure communication and encryption!', 
         learnInfo: 'This will be under the learn tab', 
         activities: ACTIVITIES, 
         selected: false,
