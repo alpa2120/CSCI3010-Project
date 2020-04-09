@@ -16,6 +16,7 @@ View the current build of this project at https://alpa2120.github.io/CSCI3010-Pr
 2. Navigate to the `Code` directory of this project in your terminal. (We use powershell)
 ### Installs needed to run (if modules haven't already been):
 >>npm install bootstrap@4.0.0
+
 >>npm install @ng-bootstrap/ng-bootstrap@1
 3. Run 'npm rebuild node-sass' to include newly installed modules
 4. Run `ng serve` in your terminal.
