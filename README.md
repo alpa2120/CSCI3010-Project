@@ -24,7 +24,7 @@ To use Angular CLI, follow these instructions provided by Visual Studio Code: ht
 
 Note: You will need to install the Node.js Javascript runtime and the npm package.
 
-# Installs needed to run:
+### Installs needed to run:
 
 >>npm install bootstrap@4.0.0
 
