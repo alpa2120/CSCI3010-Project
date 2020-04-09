@@ -14,9 +14,13 @@ View the current build of this project at https://alpa2120.github.io/CSCI3010-Pr
 
 1. Ensure that you have the Angular CLI installed for VS Code.
 2. Navigate to the `Code` directory of this project in your terminal. (We use powershell)
-3. Run `ng serve` in your terminal.
-4. Navigate to `http://localhost:4200/` in a browser. (We use Chrome)
-5. The application should now be running locally and viewable at the local host link mentioned above.
+### Installs needed to run (if modules haven't already been):
+>>npm install bootstrap@4.0.0
+>>npm install @ng-bootstrap/ng-bootstrap@1
+3. Run 'npm rebuild node-sass' to include newly installed modules
+4. Run `ng serve` in your terminal.
+5. Navigate to `http://localhost:4200/` in a browser. (We use Chrome)
+6. The application should now be running locally and viewable at the local host link mentioned above.
 
 ## Project Dependencies
 
