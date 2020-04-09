@@ -24,6 +24,12 @@ To use Angular CLI, follow these instructions provided by Visual Studio Code: ht
 
 Note: You will need to install the Node.js Javascript runtime and the npm package.
 
+# Installs needed to run:
+
+>>npm install bootstrap@4.0.0
+
+>>npm install @ng-bootstrap/ng-bootstrap@1
+
 ## General Angular Information
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
@@ -51,9 +57,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-## Installs needed to run:
-
->>npm install bootstrap@4.0.0
-
->>npm install @ng-bootstrap/ng-bootstrap@1
