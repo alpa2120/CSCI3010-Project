@@ -2,16 +2,32 @@ import { LearnTab } from './learn-tab';
 
 const NetworkTABS: LearnTab[] = [
     {
-        title: "Net 1",
-        info: "Net info 1"
+        title: "What is Networking?",
+        info: "In general, networking is the exchange of information and ideas from one person to another. If you know something that can help someone else, you can share that information with them over what we call a network. A network is an abstract term, but more or less describes how certain people are connected to one another, maybe by the US postal system, a connection to the internet, or even a cup-string phone line! Whoever is connected to this network has quick and easy access to the information being provided by others on the same network. The need to share information effectively and efficiently has been essential to our world as it develops, and is the underlying reason for the creation and evolution of what we call the Internet. But what is the Internet? In the short, the Internet is a culmination of what we just defined, networks! Imagine a network of networks, but this network of networks is then included with other networks of networks, that’s the Internet - a “network of networks”. This fundamental structure is essential to the various processes that allow you to send an email from your office to someone on the other side of the world, or to play an online game with other people simultaneously. Amidst this structure are the underlying ‘layers’, defined by the OSI layer model, that allow the Internet to function, what we will be covering in the next slides."
     },
     {
-        title: "Net 2",
-        info: "Net info 2"
+        title: "Networking Terms:",
+        info: "Host: A host is the term we give to devices/systems that are connected to the Internet. This can include anything from a laptop to your smart fridge, it’s the thing that we interact with to get information from the Internet. Protocol: A protocol simply defines how communication is going to happen. We, as humans, have protocols that we use everyday; if someone says ‘hello’ to you, you usually respond with a ‘hello’ back. Similarly, the Internet has protocols of its own - how your laptop communicates with your home router and how that router communicates with a server somewhere - that can be viewed as ‘conversations’ between different entities on the Internet. Packet: A packet is a piece of a message that is sent over the data link layer. The transport layer splits up messages between hosts into packets and transmits the message to the destination address one packet at a time. "
     },
     {
-        title: "Net 3",
-        info: "Net info 3"
+        title: "Layer 1: Physical Layer",
+        info: "This layer relies on the physical infrastructure layed out so the Internet can function. Telephone lines, fiber optic cables, and even satellites are all examples of what this layer uses to send information from location to another, we call them physical links. Telephone lines and fiber optic cables would fall into the category of ‘guided’ links, while satellites transmitting radio signals would fall into the category of ‘unguided’ links.These physical links lie in between transmitters and receivers, a transmitter sends something across the link to a receiver. The main focus of this layer is reliability, ensuring that the information gets to a location unchanged and in a timely manner."
+    },
+    {
+        title: "Layer 2: Data Link Layer",
+        info: "This layer focuses on how we distribute/direct the information we are sending across the physical links. A host has a Media Access Control address (MAC address) property associated with it which serves as its ‘physical’ address on the Internet. The physical address of a host on the Internet is not the same as the physical address of your home, rather a host’s MAC address is more like your social security number, it gives a device a unique identifier that can be used to locate it on the Internet. These MAC addresses are used by the “Network Core”, a mesh of interconnected routers, to provide the logic that governs how information is sent from network to network.        "
+    },
+    {
+        title: "Layer 3: Network Layer",
+        info: "The network layer is responsible for sending information destined for another host. On this layer we have an extremely important protocol called IP, or the Internet Protocol. You may have realized that if we only had the MAC address of a device, it would be near impossible to figure out how to get information to that device - there are billions of devices in the world so checking every device address for a match wouldn’t work! We will see how IP comes into play soon. End systems (hosts) connect to the Internet via access ISPs (Internet Service Provider). These access ISPs must be interconnected so that we can communicate with one another, it wouldn’t be very useful if people with xFinity couldn’t share information to people with CenturyLink. We then connect these access ISPs (local to you) to global transit ISPs. The IP protocol gives a virtual address (IP address) to a host/router that is under the umbrella of an ISP. An access ISP will save all the IP addresses of the devices that are connected to the Internet through it, and is able to share these addresses via the interconnected mesh of access/global ISPs. If Alice sends a message to Bob, Alice’s access ISP needs to find the IP address of Bob (so the message can be sent to Bob) so it communicates (protocols!) with other ISPs to find that information."
+    },
+    {
+        title: "Layer 4: Transport Layer",
+        info: "The network layer allowed for logical communication between hosts. Similarly, the transport layer allows for logical communication between application processes running on different hosts. This layer builds upon the IP protocol by including another protocol inside of it, TCP. TCP stands for Transmission Control Protocol, and is rooted with the IP protocol. While IP provides the destination and source addresses (IP address), TCP dictates how the conversation between two hosts is carried out. Using the TCP protocol, the transport layer provides a reliable data connection between two devices. It divides the data in packets, acknowledges the packets that it has received from the other device, and makes sure that the other device acknowledges the packets it receives."
+    },
+    {
+        title: "Layer 5: Application Layer",
+        info: "The application layer is quite simple. Any application that uses either the TCP or UDP (not covered in layer 4) protocol to communicate is in the application layer. Typically, this layer consists of what a user actually interacts with, whether it be skype, email, or an online game. The layers underneath the application layer handle all of the nitty gritty details needed to communicate, leaving the simple job of taking user input and providing a message to the layers below."
     }
 ]
 
@@ -93,18 +109,26 @@ const MalwareTABS: LearnTab[] = [
     }
 ]
 
-const QuantumTABS: LearnTab[] = [
+const SocialTABS: LearnTab[] = [
     {
-        title: "Quantam 1",
-        info: "Quantam info 1"
+        title: "What is Social Engineering?",
+        info: "As the saying goes, “a team is only as strong as the weakest link”. In the world of cybersecurity, the weakest link of the team is you, the user. The computers and phones that we use have had their flaws and errors whittled down to the point that it’s nearly impossible for an attacker to exploit them. Instead, attackers target a user and try to get information out of them as it’s much easier. Of all the security breaches and ‘hacks’ that go on in the world today, an alarmingly high percentage are a result of an attacker exploiting a user, not a computer. Social engineering covers the methods that attackers use to get information out of a user - how they can trick you into giving away details like a password or credit card number. We will cover the various tactics that attackers use to get information out of an unsuspecting victim, and how to avoid them."
     },
     {
-        title: "Quantam 2",
-        info: "Quantam info 2"
+        title: "Authority Tactic:",
+        info: "You may receive an email that is from “The Chief of Police” in your local area. Here, the attacker is using the concept of authority to trick you into giving them information. For example, this “chief of police” might say he needs your credit card information so that he can pay off the debt that you owe."
     },
     {
-        title: "Quantam 3",
-        info: "Quantam info 3"
+        title: "Urgency Tactic",
+        info: "This tactic banks on the hope that we get careless with our information when we are under the pressure of time. You might get a message reading “Please go to this link ASAP so we can continue…”."
+    },
+    {
+        title: "Familiarity",
+        info: "This tactic makes use of the trust that we place in people we know. If the attacker can impersonate someone you have already contacted, you might be more likely to give them information."
+    },
+    {
+        title: "Overall Takeaway",
+        info: "The big takeaway from social engineering is that humans can be stupid sometimes. Most social engineering attempts are blatantly obvious, like the “click here free $100” type of emails - nobody just gives out free money via email…But there are some that are a little more tricky to catch. An example of this might be a link included in an email which takes you to a spoofed website, one that looks like the real one but isn’t, where you willingly type in your information. A good way to avoid being a victim of social engineering is to always be on your toes. If you get an email from a suspicious address, it’s probably a good idea to just delete it right away. If you get an email from someone whom you’ve contacted before, make sure what they are asking for makes sense! If my plumber emailed me saying he needs my social security number so he can fix my sink, it’s probably a scam! Recognizing that the biggest vulnerability in security systems isn’t the systems themselves, but rather those who use the systems is the first step in avoiding social engineering attacks - be aware that not everybody on the Internet wants to be friends!"
     }
 ]
 
@@ -112,5 +136,5 @@ export const TABS: LearnTab[][] = [
     NetworkTABS,
     CryptoTABS,
     MalwareTABS,
-    QuantumTABS
+    SocialTABS
 ]

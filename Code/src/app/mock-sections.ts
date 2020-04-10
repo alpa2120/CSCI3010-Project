@@ -15,7 +15,7 @@ export const SECTIONS: Section[] =
 [
     {
         title: 'Networking', 
-        info: 'Information about section 1', 
+        info: "Let's learn how the Internet works!", 
         learnInfo: 'This will be under the learn tab',  //learnInfo field not needed anymore?
         activities: ACTIVITIES, 
         selected: false,
@@ -33,7 +33,7 @@ export const SECTIONS: Section[] =
     },
     {
         title: 'Malware', 
-        info: 'Information about section 3', 
+        info: 'What exactly is a virus?', 
         learnInfo: 'This will be under the learn tab', 
         activities: ACTIVITIES, 
         selected: false,
@@ -41,8 +41,8 @@ export const SECTIONS: Section[] =
         quiz: QUIZZES[2]
     },
     {
-        title: 'Quantum Encryption', 
-        info: 'Information about section 4', 
+        title: 'Social Engineering', 
+        info: 'How to stay safe on the Internet!', 
         learnInfo: 'This will be under the learn tab', 
         activities: ACTIVITIES, 
         selected: false,
