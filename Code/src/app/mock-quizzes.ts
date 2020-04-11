@@ -2,180 +2,188 @@ import { quizQuestion } from './quiz';
 
 const NetworkQUIZ: quizQuestion[] = [
     {
+        question: "Networking is: ",
         id: 1,
         options: 
         [
             {
-                optionText: "Net q1 option 1",
+                optionText: "The exchange of information and ideas from one person to another",
                 isCorrect: true
             },
             {
-                optionText: "Net q1 option 2",
+                optionText: "The protocols that a printer employs",
                 isCorrect: false
             },
             {
-                optionText: "Net q1 option 3",
+                optionText: "The various methods we use to encrypt our data",
                 isCorrect: false
             },
             {
-                optionText: "Net q1 option 4",
+                optionText: "How a hacker gets access to your personal information",
                 isCorrect: false
             }
         ]
     },
     {
+        question: "What is a packet?",
         id: 2,
         options: 
         [
             {
-                optionText: "Net q2 option 1",
+                optionText: "The entire message that is being transmitted over the Internet",
+                isCorrect: false
+            },
+            {
+                optionText: "The physical connection between different hosts",
+                isCorrect: false
+            },
+            {
+                optionText: "A piece of a larger message to be transmitted over the Internet",
                 isCorrect: true
             },
             {
-                optionText: "Net q2 option 2",
-                isCorrect: false
-            },
-            {
-                optionText: "Net q2 option 3",
-                isCorrect: false
-            },
-            {
-                optionText: "Net q2 option 4",
+                optionText: "Something that you put your groceries inside",
                 isCorrect: false
             }
         ]
     },
     {
+        question: "Which of these is NOT a layer in the OSI model?",
         id: 3,
         options: 
         [
             {
-                optionText: "Net q3 option 1",
+                optionText: "Network Layer",
+                isCorrect: false
+            },
+            {
+                optionText: "Cloud Layer",
                 isCorrect: true
             },
             {
-                optionText: "Net q3 option 2",
+                optionText: "Physical Layer",
                 isCorrect: false
             },
             {
-                optionText: "Net q3 option 3",
-                isCorrect: false
-            },
-            {
-                optionText: "Net q3 option 4",
+                optionText: "Data Link Layer",
                 isCorrect: false
             }
         ]
     },
     {
+        question: "What is the purpose of a MAC address?",
         id: 4,
         options: 
         [
             {
-                optionText: "Net q4 option 1",
+                optionText: "Tell you where to go to fix your iPhone",
+                isCorrect: false
+            },
+            {
+                optionText: "Group multiple hosts under one address for later reference",
+                isCorrect: false
+            },
+            {
+                optionText: "Provide a protocol for the Transport Layer",
+                isCorrect: false
+            },
+            {
+                optionText: "Provide a unique identifier for each host when local area networks (a part of Network Core) are directing internal communication",
                 isCorrect: true
-            },
-            {
-                optionText: "Net q4 option 2",
-                isCorrect: false
-            },
-            {
-                optionText: "Net q4 option 3",
-                isCorrect: false
-            },
-            {
-                optionText: "Net q4 option 4",
-                isCorrect: false
             }
         ]
     }
 ]
 
-const CryptoQUIZ: quizQuestion[] = [
+const SocialQUIZ: quizQuestion[] = [
     {
+        question: "",
         id:1,
         options: 
         [
             {
-                optionText: "Crypto q1 option 1",
+                optionText: "Social q1 option 1",
                 isCorrect: true
             },
             {
-                optionText: "Crypto q1 option 2",
+                optionText: "Social q1 option 2",
                 isCorrect: false
             },
             {
-                optionText: "Crypto q1 option 3",
+                optionText: "Social q1 option 3",
                 isCorrect: false
             },
             {
-                optionText: "Crypto q1 option 4",
+                optionText: "Social q1 option 4",
                 isCorrect: false
             }
         ]
     },
     {
+        question: "",
         id:2,
         options: 
         [
             {
-                optionText: "Crypto q2 option 1",
+                optionText: "Social q2 option 1",
                 isCorrect: true
             },
             {
-                optionText: "Crypto q2 option 2",
+                optionText: "Soical q2 option 2",
                 isCorrect: false
             },
             {
-                optionText: "Crypto q2 option 3",
+                optionText: "Social q2 option 3",
                 isCorrect: false
             },
             {
-                optionText: "Crypto q2 option 4",
+                optionText: "Social q2 option 4",
                 isCorrect: false
             }
         ]
     },
     {
+        question: "",
         id: 3,
         options: 
         [
             {
-                optionText: "Crypto q3 option 1",
+                optionText: "Social q3 option 1",
                 isCorrect: true
             },
             {
-                optionText: "Crypto q3 option 2",
+                optionText: "Social q3 option 2",
                 isCorrect: false
             },
             {
-                optionText: "Crypto q3 option 3",
+                optionText: "Social q3 option 3",
                 isCorrect: false
             },
             {
-                optionText: "Crypto q3 option 4",
+                optionText: "Social q3 option 4",
                 isCorrect: false
             }
         ]
     },
     {
+        question: "",
         id: 4,
         options: 
         [
             {
-                optionText: "Crypto q4 option 1",
+                optionText: "Social q4 option 1",
                 isCorrect: true
             },
             {
-                optionText: "Crypto q4 option 2",
+                optionText: "Social q4 option 2",
                 isCorrect: false
             },
             {
-                optionText: "Crypto q4 option 3",
+                optionText: "Social q4 option 3",
                 isCorrect: false
             },
             {
-                optionText: "Crypto q4 option 4",
+                optionText: "Social q4 option 4",
                 isCorrect: false
             }
         ]
@@ -184,6 +192,7 @@ const CryptoQUIZ: quizQuestion[] = [
 
 const MalwareQUIZ: quizQuestion[] = [
     {
+        question: "",
         id: 1,
         options: 
         [
@@ -206,6 +215,7 @@ const MalwareQUIZ: quizQuestion[] = [
         ]
     },
     {
+        question: "",
         id: 2,
         options: 
         [
@@ -228,6 +238,7 @@ const MalwareQUIZ: quizQuestion[] = [
         ]
     },
     {
+        question: "",
         id: 3,
         options: 
         [
@@ -250,6 +261,7 @@ const MalwareQUIZ: quizQuestion[] = [
         ]
     },
     {
+        question: "",
         id: 4,
         options: 
         [
@@ -273,8 +285,9 @@ const MalwareQUIZ: quizQuestion[] = [
     }
 ]
 
-const QuantumQUIZ: quizQuestion[] = [
+const CryptoQUIZ: quizQuestion[] = [
     {
+        question: "",
         id: 1,
         options: 
         [
@@ -297,6 +310,7 @@ const QuantumQUIZ: quizQuestion[] = [
         ]
     },
     {
+        question: "",
         id: 2,
         options: 
         [
@@ -319,6 +333,7 @@ const QuantumQUIZ: quizQuestion[] = [
         ]
     },
     {
+        question: "",
         id: 3,
         options: 
         [
@@ -341,6 +356,7 @@ const QuantumQUIZ: quizQuestion[] = [
         ]
     },
     {
+        question: "",
         id: 4,
         options: 
         [
@@ -368,5 +384,5 @@ export const QUIZZES: quizQuestion[][] = [
     NetworkQUIZ,
     CryptoQUIZ,
     MalwareQUIZ,
-    QuantumQUIZ
+    SocialQUIZ
 ]

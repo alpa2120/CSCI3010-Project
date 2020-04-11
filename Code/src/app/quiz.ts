@@ -4,6 +4,7 @@ interface quizOption {
 }
 
 export interface quizQuestion {
+    question: string;
     options: quizOption[];
     id: number;
     answeredCorrect?: boolean;
