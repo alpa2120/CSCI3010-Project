@@ -14,7 +14,7 @@ For this deadline, we completed the "learn" tabs which contain information about
 a) Initially we had planned on having a matching activity, but we found that implementing a video would be more impactful to the user and help with their learning more effectively. Considering that we already have an interactive activity implemented, we thought that a page with useful links and videos would be more influential.
 
 Implemented Learn Tabs:
-![](/Checkpoints/Images/LearnTab4-10.PNG
+![](/Checkpoints/Images/LearnTab4-10.PNG)
 
 Network Section Quiz Example:
 ![](/Checkpoints/Images/QuizExample4-10.PNG)
