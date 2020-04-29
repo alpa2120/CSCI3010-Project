@@ -1,4 +1,3 @@
-
 <h1 class="page-header">{{section.title}}</h1>
 <div class="page-content">
   <div class="tile-group">
@@ -6,7 +5,11 @@
       <ngb-carousel style="height: 100%;" class="learn tile">
         <ng-template ngbSlide *ngFor="let tab of tabs">
           <h3 class="tile-header">{{tab.title}}</h3>
-          <p>{{tab.info}}</p>
+          <!--use function above to create list-->
+          <ul>
+            <li *ngFor = "let point of tab.info">{{point}}</li>
+          </ul>
+          <!-- Script for creating formatted learn tab-->
         </ng-template>
       </ngb-carousel>
       <!-- <button class="tile" style="height: 100%;" [routerLink]="['/section']">
