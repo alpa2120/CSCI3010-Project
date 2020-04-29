@@ -1,6 +1,7 @@
 import { Activity } from './activity';
 import { LearnTab } from './learn-tab';
 import { quizQuestion } from './quiz';
+import { resourceItem } from './resource';
 
 /**
  * Section interface.
@@ -22,4 +23,6 @@ export interface Section {
     tabs: LearnTab[];
 
     quiz: quizQuestion[];
+
+    resource: resourceItem[];
 }

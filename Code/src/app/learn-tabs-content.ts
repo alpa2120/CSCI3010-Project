@@ -130,7 +130,7 @@ const SocialTABS: LearnTab[] = [
         title: "Overall Takeaway",
         info: ["The big takeaway from social engineering is that humans can be stupid sometimes. Most social engineering attempts are blatantly obvious, like the “click here free $100” type of emails - nobody just gives out free money via email…", "But there are some that are a little more tricky to catch. An example of this might be a link included in an email which takes you to a spoofed website, one that looks like the real one but isn’t, where you willingly type in your information.", "A good way to avoid being a victim of social engineering is to always be on your toes. If you get an email from a suspicious address, it’s probably a good idea to just delete it right away. If you get an email from someone whom you’ve contacted before, make sure what they are asking for makes sense! If my plumber emailed me saying he needs my social security number so he can fix my sink, it’s probably a scam!", "Recognizing that the biggest vulnerability in security systems isn’t the systems themselves, but rather those who use the systems is the first step in avoiding social engineering attacks - be aware that not everybody on the Internet wants to be friends!"]
     }
-] 
+]
 
 export const TABS: LearnTab[][] = [
     NetworkTABS,

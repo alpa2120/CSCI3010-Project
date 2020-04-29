@@ -9,22 +9,17 @@
           <ul>
             <li *ngFor = "let point of tab.info">{{point}}</li>
           </ul>
-          <!-- Script for creating formatted learn tab-->
         </ng-template>
       </ngb-carousel>
-      <!-- <button class="tile" style="height: 100%;" [routerLink]="['/section']">
-        <h3 class="tile-header">Learn</h3>
-        <p>{{section.learnInfo}}</p>
-      </button> -->
     </div>
     <div class="tile-col">
       <button class="tile" [routerLink]="['/quiz']">
         <h3 class="tile-header">Quiz</h3>
-        <p>Quiz Info</p>
+        <p>Take a quick quiz to test your knowledge of the topic!</p>
       </button>
-      <button class="tile" [routerLink]="['/section']">
-        <h3 class="tile-header">Video</h3>
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click this link for a cool video!</a>
+      <button class="tile" [routerLink]="['/resource']">
+        <h3 class="tile-header">Resources</h3>
+        <p>More information to digest!</p>
       </button>
     </div>
   </div>

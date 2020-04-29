@@ -11,6 +11,7 @@ import { SectionTemplateComponent } from './section-template/section-template.co
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { QuizComponent } from './quiz/quiz.component';
+import { ResourceComponent } from './resource/resource.component';
 
 
 @NgModule({
@@ -20,7 +21,9 @@ import { QuizComponent } from './quiz/quiz.component';
     SectionTemplateComponent,
     HeaderComponent,
     FooterComponent,
-    QuizComponent
+    QuizComponent,
+    ResourceComponent
+
   ],
   imports: [
     NgbModule,
@@ -29,7 +32,8 @@ import { QuizComponent } from './quiz/quiz.component';
       { path: '', redirectTo: '/home', pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
       { path: 'section', component: SectionTemplateComponent},
-      { path: 'quiz', component: QuizComponent}
+      { path: 'quiz', component: QuizComponent},
+      { path: 'resource', component: ResourceComponent}
     ])
   ],
   providers: [],

@@ -97,93 +97,85 @@ const NetworkQUIZ: quizQuestion[] = [
 
 const SocialQUIZ: quizQuestion[] = [
     {
-        question: "",
+        question: "Social Engineering is: ",
         id:1,
         options: 
         [
             {
-                optionText: "Social q1 option 1",
+                optionText: "Techniques to get you more followers on Instagram",
+                isCorrect: false
+            },
+            {
+                optionText: "Methods an attacker uses to get information from a user",
                 isCorrect: true
             },
             {
-                optionText: "Social q1 option 2",
+                optionText: "The current up-to-date encryption method for social services",
                 isCorrect: false
             },
             {
-                optionText: "Social q1 option 3",
-                isCorrect: false
-            },
-            {
-                optionText: "Social q1 option 4",
+                optionText: "The final layer of the OSI layer model",
                 isCorrect: false
             }
         ]
     },
     {
-        question: "",
+        question: "Computers and their software are the easiest target for attackers",
         id:2,
         options: 
         [
             {
-                optionText: "Social q2 option 1",
+                optionText: "True",
+                isCorrect: false
+            },
+            {
+                optionText: "False",
                 isCorrect: true
-            },
-            {
-                optionText: "Soical q2 option 2",
-                isCorrect: false
-            },
-            {
-                optionText: "Social q2 option 3",
-                isCorrect: false
-            },
-            {
-                optionText: "Social q2 option 4",
-                isCorrect: false
             }
         ]
     },
     {
-        question: "",
+        question: "'There are only 3 million dollar prizes left! Click this link to claim one!' is an example of what type of social engineering?",
         id: 3,
         options: 
         [
             {
-                optionText: "Social q3 option 1",
+                optionText: "Authority Tactic",
+                isCorrect: false
+            },
+            {
+                optionText: "Familiarity Tactic",
+                isCorrect: false
+            },
+            {
+                optionText: "Intimidation Tactic",
+                isCorrect: false
+            },
+            {
+                optionText: "Urgency Tactic",
                 isCorrect: true
-            },
-            {
-                optionText: "Social q3 option 2",
-                isCorrect: false
-            },
-            {
-                optionText: "Social q3 option 3",
-                isCorrect: false
-            },
-            {
-                optionText: "Social q3 option 4",
-                isCorrect: false
             }
         ]
     },
     {
-        question: "",
+        question: "Which of these is NOT an effective way to avoid social engineering attacks?",
         id: 4,
         options: 
         [
             {
-                optionText: "Social q4 option 1",
+                optionText: "Delete any suspicious emails from unknown senders",
+                isCorrect: false
+            },
+            {
+                optionText: "Checking that the content of the email makes sense for whom it's coming from",
+                isCorrect: false
+            },
+            {
+                optionText: "Opening emails from unknown senders and clicking links they provide",
                 isCorrect: true
             },
             {
-                optionText: "Social q4 option 2",
-                isCorrect: false
-            },
-            {
-                optionText: "Social q4 option 3",
-                isCorrect: false
-            },
-            {
-                optionText: "Social q4 option 4",
+                optionText: "Checking a verified source (official website) for information before trusting an unverified source (website from email)",
                 isCorrect: false
             }
         ]
@@ -192,94 +184,86 @@ const SocialQUIZ: quizQuestion[] = [
 
 const MalwareQUIZ: quizQuestion[] = [
     {
-        question: "",
+        question: "Which of these is NOT a goal of malware?",
         id: 1,
         options: 
         [
             {
-                optionText: "Malware q1 option 1",
+                optionText: "Ensure your system security settings are up to date",
                 isCorrect: true
             },
             {
-                optionText: "Malware q1 option 2",
+                optionText: "Disrupt the availability of your system",
                 isCorrect: false
             },
             {
-                optionText: "Malware q1 option 3",
+                optionText: "Gain access to root authorization/privilidges on your system",
                 isCorrect: false
             },
             {
-                optionText: "Malware q1 option 4",
+                optionText: "Search through your files for sensitive information",
                 isCorrect: false
             }
         ]
     },
     {
-        question: "",
+        question: "What is a payload?",
         id: 2,
         options: 
         [
             {
-                optionText: "Malware q2 option 1",
+                optionText: "The money malware transfers into your bank account",
+                isCorrect: false
+            },
+            {
+                optionText: "What the virus/worm does when it is triggered/executed",
                 isCorrect: true
             },
             {
-                optionText: "Malware q2 option 2",
+                optionText: "The event that causes the virus/worm to execute",
                 isCorrect: false
             },
             {
-                optionText: "Malware q2 option 3",
-                isCorrect: false
-            },
-            {
-                optionText: "Malware q2 option 4",
+                optionText: "How a worm propagates from system to system",
                 isCorrect: false
             }
         ]
     },
     {
-        question: "",
+        question: "When a virus/worm is waiting for a certain event to occur, it is in what phase: ",
         id: 3,
         options: 
         [
             {
-                optionText: "Malware q3 option 1",
+                optionText: "Execution phase",
+                isCorrect: false
+            },
+            {
+                optionText: "Propagation phase",
+                isCorrect: false
+            },
+            {
+                optionText: "Triggering phase",
+                isCorrect: false
+            },
+            {
+                optionText: "Dormant phase",
                 isCorrect: true
-            },
-            {
-                optionText: "Malware q3 option 2",
-                isCorrect: false
-            },
-            {
-                optionText: "Malware q3 option 3",
-                isCorrect: false
-            },
-            {
-                optionText: "Malware q3 option 4",
-                isCorrect: false
             }
         ]
     },
     {
-        question: "",
+        question: "If a virus/worm is able to install a rootkit on your system, you can get rid of the rootkit by simply restarting your computer",
         id: 4,
         options: 
         [
             {
-                optionText: "Malware q4 option 1",
+                optionText: "True",
+                isCorrect: false
+            },
+            {
+                optionText: "False",
                 isCorrect: true
-            },
-            {
-                optionText: "Malware q4 option 2",
-                isCorrect: false
-            },
-            {
-                optionText: "Malware q4 option 3",
-                isCorrect: false
-            },
-            {
-                optionText: "Malware q4 option 4",
-                isCorrect: false
             }
         ]
     }
@@ -287,94 +271,86 @@ const MalwareQUIZ: quizQuestion[] = [
 
 const CryptoQUIZ: quizQuestion[] = [
     {
-        question: "",
+        question: "Cryptography is: ",
         id: 1,
         options: 
         [
             {
-                optionText: "Quantum q1 option 1",
+                optionText: "The methods we use to communicate with one another in a secure fashion",
                 isCorrect: true
             },
             {
-                optionText: "Quantum q1 option 2",
+                optionText: "Uncovering a secret organization known as the 'Illumninati', who is plotting to kill the Pope",
                 isCorrect: false
             },
             {
-                optionText: "Quantum q1 option 3",
+                optionText: "A protocol used on the Internet",
                 isCorrect: false
             },
             {
-                optionText: "Quantum q1 option 4",
+                optionText: "A type of social engineering attack",
                 isCorrect: false
             }
         ]
     },
     {
-        question: "",
+        question: "The main difference between symmetric and asymmetric encryption is the length of the key used",
         id: 2,
         options: 
         [
             {
-                optionText: "Quantum q2 option 1",
+                optionText: "True",
+                isCorrect: false
+            },
+            {
+                optionText: "False",
                 isCorrect: true
-            },
-            {
-                optionText: "Quantum q2 option 2",
-                isCorrect: false
-            },
-            {
-                optionText: "Quantum q2 option 3",
-                isCorrect: false
-            },
-            {
-                optionText: "Quantum q2 option 4",
-                isCorrect: false
             }
         ]
     },
     {
-        question: "",
+        question: "The downfall of symmetric encryption is",
         id: 3,
         options: 
         [
             {
-                optionText: "Quantum q3 option 1",
+                optionText: "Limit on size of message we are encrypting",
+                isCorrect: false
+            },
+            {
+                optionText: "Keeping the shared secret key secret",
                 isCorrect: true
             },
             {
-                optionText: "Quantum q3 option 2",
+                optionText: "The complexity of encrypting and decrypting a message",
                 isCorrect: false
             },
             {
-                optionText: "Quantum q3 option 3",
-                isCorrect: false
-            },
-            {
-                optionText: "Quantum q3 option 4",
+                optionText: "Eve can decrypt an encrypted message with or without the secret key",
                 isCorrect: false
             }
         ]
     },
     {
-        question: "",
+        question: "Which of these details a general format of the asymmetric key encryption and decryption process",
         id: 4,
         options: 
         [
             {
-                optionText: "Quantum q4 option 1",
+                optionText: "Alice encrypts her message with Bob's public key, and sends the encrypted message to Eve. Eve then decrypts the message using Bob's public key",
+                isCorrect: false
+            },
+            {
+                optionText: "Alice encrypts a message with Bob's private key, and sends the encrypted message to Bob. Bob then decrypts thius message using his public key",
+                isCorrect: false
+            },
+            {
+                optionText: "Bob encrypts a message with his private key, and sends the encrypted message to Alice. Alice then decrypts this message using Bob's public key",
+                isCorrect: false
+            },
+            {
+                optionText: "Alice encrypts a message with Bob's public key, and sends the encrypted message to Bob. Bob then decrypts this message using his private key",
                 isCorrect: true
-            },
-            {
-                optionText: "Quantum q4 option 2",
-                isCorrect: false
-            },
-            {
-                optionText: "Quantum q4 option 3",
-                isCorrect: false
-            },
-            {
-                optionText: "Quantum q4 option 4",
-                isCorrect: false
             }
         ]
     }

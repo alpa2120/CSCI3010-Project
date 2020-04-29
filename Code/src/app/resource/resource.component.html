@@ -1,0 +1,18 @@
+<h1 class="page-header">{{section.title}} Resources</h1>
+<div class="page-content">
+  <button class="home-button" [routerLink]="['/section']">{{section.title}} Home</button>
+  <form>
+    <div class="tile-group">
+      <div class="quiz">
+        <div class="question" *ngFor="let content of resource">
+          <fieldset class="form-group">
+            <ul class = "list-group">
+              <h3> {{content.description}} </h3>
+              <p>{{content.link}}</p>
+            </ul>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

@@ -1,3 +1,4 @@
+//object used to create each quiz question and its options
 interface quizOption {
     optionText: string;
     isCorrect: boolean;

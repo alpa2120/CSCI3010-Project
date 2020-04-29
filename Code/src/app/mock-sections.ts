@@ -1,8 +1,10 @@
 import { Section } from './section';
 import { Activity } from './activity';
 
-import { TABS } from './mock-learn-labs';
-import { QUIZZES } from './mock-quizzes';
+import { TABS } from './learn-tabs-content';
+import { QUIZZES } from './quizzes-content';
+import { RESOURCES } from './resources-content';
+
 
 // This is a list of activities
 const ACTIVITIES: Activity[] = [
@@ -20,7 +22,8 @@ export const SECTIONS: Section[] =
         activities: ACTIVITIES, 
         selected: false,
         tabs: TABS[0],
-        quiz: QUIZZES[0]
+        quiz: QUIZZES[0],
+        resource: RESOURCES[0]
     },
     {
         title: 'Cryptography', 
@@ -29,7 +32,8 @@ export const SECTIONS: Section[] =
         activities: ACTIVITIES, 
         selected: false,
         tabs: TABS[1],
-        quiz: QUIZZES[1]
+        quiz: QUIZZES[1],
+        resource: RESOURCES[1]
     },
     {
         title: 'Malware', 
@@ -38,15 +42,17 @@ export const SECTIONS: Section[] =
         activities: ACTIVITIES, 
         selected: false,
         tabs: TABS[2],
-        quiz: QUIZZES[2]
+        quiz: QUIZZES[2],
+        resource: RESOURCES[2]
     },
     {
         title: 'Social Engineering', 
-        info: 'How to stay safe on the Internet!', 
+        info: 'How to stay safe online!', 
         learnInfo: 'This will be under the learn tab', 
         activities: ACTIVITIES, 
         selected: false,
         tabs: TABS[3],
-        quiz: QUIZZES[3]
+        quiz: QUIZZES[3],
+        resource: RESOURCES[3]
     }
 ]
