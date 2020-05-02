@@ -31,4 +31,32 @@ export class QuizComponent implements OnInit {
     }
   }
 
+  checkQuiz()
+  {
+    let numCorrect = 0;
+    for(let question of this.quiz)
+    {
+      for(let option of question.options)
+      {
+        if(option.isCorrect)
+        {
+          let correct = document.getElementById(option.optionText) as HTMLInputElement;
+          if(correct.checked) question.answeredCorrect = true;
+          else question.answeredCorrect = false;
+        }
+      }
+      if (question.answeredCorrect)
+      {
+        document.getElementById(question.question).style.backgroundColor = "green";
+        console.log("correct");
+        numCorrect++;
+      }
+      else
+      {
+        document.getElementById(question.question).style.backgroundColor = "red";
+        console.log("incorrect");
+      } 
+    }
+  }
+
 }

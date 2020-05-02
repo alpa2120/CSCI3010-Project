@@ -4,7 +4,7 @@
   <form>
     <div class="tile-group">
       <div class="quiz">
-        <div class="question" *ngFor="let question of quiz">
+        <div class="question" *ngFor="let question of quiz" id={{question.question}}>
           <fieldset class="form-group">
             <ul class = "list-group">
               <h3> {{question.question}} </h3>
@@ -22,5 +22,5 @@
       </div>
     </div>
   </form>
-  <button class="home-button" [routerLink]="['/section']">Submit Quiz</button>
+  <button class="home-button" (click)="checkQuiz()">Submit Quiz</button>
 </div>
