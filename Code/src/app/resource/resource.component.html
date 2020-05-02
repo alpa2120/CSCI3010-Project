@@ -5,12 +5,10 @@
     <div class="tile-group">
       <div class="quiz">
         <div class="question" *ngFor="let content of resource">
-          <fieldset class="form-group">
             <ul class = "list-group">
-              <h3> {{content.description}} </h3>
-              <p>{{content.link}}</p>
+              <li><a target="_blank" rel="noopener noreferrer" href={{content.article_link}} style="font-size: 50px">{{content.article_description}}</a></li>
+              <li><a target="_blank" rel="noopener noreferrer" href={{content.video_link}} style="font-size: 50px">Video: {{content.video_description}}</a></li>
             </ul>
-          </fieldset>
         </div>
       </div>
     </div>
