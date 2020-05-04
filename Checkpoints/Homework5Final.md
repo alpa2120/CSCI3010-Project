@@ -18,8 +18,8 @@
 - The text on the learn tabs has been formatted - each slide on the carousel has text split up into bullet points
 - We haven't made any updates to the styling of the application - we managed to get everything else done except this (this would be as easy as copy and pasting some css)
 
-Implemented Learn Tabs:
+Formatted Learn Tabs:
 ![](/Checkpoints/Images/LearnTabFormatted.PNG)
 
-Network Section Quiz Example:
+Quiz Feedback Example:
 ![](/Checkpoints/Images/QuizExampleFormatted.PNG)
