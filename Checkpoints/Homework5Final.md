@@ -19,8 +19,7 @@
 - We haven't made any updates to the styling of the application - we managed to get everything else done except this (this would be as easy as copy and pasting some css)
 
 Implemented Learn Tabs:
-![](/Checkpoints/Images/LearnTab4-10.PNG)
+![](/Checkpoints/Images/LearnTabFormatted.PNG)
 
 Network Section Quiz Example:
-![](/Checkpoints/Images/QuizExample4-10.PNG)
-
+![](/Checkpoints/Images/QuizExampleFormatted.PNG)
